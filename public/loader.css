@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.loader__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+  
+  animation: appearance 1.5s linear;
+}
+
+.main {
+  animation: appearance 0.5s linear;
+}
+
+@keyframes appearance {
+  0% { opacity: 0}
+  25% { opacity: 25%}
+  50% { opacity: 50%}
+  75% { opacity: 75%}
+  100% { opacity: 100%}
+}
